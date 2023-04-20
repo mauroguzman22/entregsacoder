@@ -69,7 +69,7 @@ class ProductManager {
 
 const pm = new ProductManager("products.json");
 
-console.log(pm.getProducts()); // []
+console.log(pm.getProducts()); 
 
 const newProduct = pm.addProduct({
   title: "producto prueba",
